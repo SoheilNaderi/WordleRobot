@@ -42,6 +42,9 @@ for t in range(0,6):
     if t != 0:
         pass
         #TODO Tasmim bot
+        print()
+        print(Data)
+        word=str(input("what word do u like: "))
     else:
         word="anise\n"
 
