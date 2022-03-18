@@ -3,7 +3,7 @@ from wordfreq import word_frequency
 letters=['e', 's', 'i', 'a', 'r', 'n', 't', 'o', 'l', 'c', 'd', 'u', 'g', 'p', 'm',
 'k', 'h', 'b', 'y', 'f', 'v', 'w', 'z', 'x', 'q', 'j']
 
-with open("/usr/share/dict/words") as f:   
+with open("words") as f:   
     words=[word for word in [w.strip().lower() 
                 for w in f.readlines()] if (len(word) == 5 )] 
          
