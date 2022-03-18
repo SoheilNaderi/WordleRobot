@@ -32,6 +32,21 @@ def positionFrequency(words,letters):
                 sorted(dic.items(),reverse=1, key=lambda item: item[1])})
     return repetitive 
 
+def Decision(Data,pFreq):
+    wFreqList=[]
+    sitem=('',0)
+    if len(Data)<4:
+        rang=1
+    else:
+        rang=len(Data)//4
+    for d in Data:
+        wFreqList.append(d[2])
+    wFreqList.sort(reverse=True)   
+    for i in wFreqList[:rang]:
+        for d in Data:
+            if (d[2]==i and d[1]>sitem[1]):
+                sitem=(d[0],d[1])
+    return sitem[0]
 lFreq=letterFrequency(words,letters)
 wFreq=[word_frequency(w,lang='en') for w in words]
 Data=[(words[i],lFreq[i],wFreq[i]) for i in range (0,len(words))]
@@ -40,11 +55,11 @@ pFreq=positionFrequency(words,letters)
 newData=[]
 for t in range(0,6):
     if t != 0:
-        pass
-        #TODO Tasmim bot
-        print()
-        print(Data)
-        word=str(input("what word do u like: "))
+        #print()
+        #print(Data)
+        #print(Decision(Data,pFreq))
+        #word=input("\n: ")
+        word=Decision(Data,pFreq)
     else:
         word="anise\n"
 
