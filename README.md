@@ -12,7 +12,7 @@ The recommended version for Python 3
 ## Setup
 Just run WordleRobot.py from your python:
 ```bash
-$python3 wordleRobot.py
+$ python3 wordleRobot.py
 
 Hey! Calm Down, I am here to solve wordle chalnge(*_*).
 ==========
@@ -31,11 +31,11 @@ These dependencies can be installed using the requirements file:
 
 - Installation on `Linux` or `MacOS`:
 ```
-$sudo pip install -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 - Installation on `Windows`:
 ```
-$c:\python3x\python.exe -m pip install -r requirements.txt
+c:\python3x\python.exe -m pip install -r requirements.txt
 ```
 ## License
 [MIT License](https://choosealicense.com/licenses/mit/)
