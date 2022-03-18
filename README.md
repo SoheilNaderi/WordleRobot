@@ -5,7 +5,7 @@ This Python program is able to solve the [WORDLE](https://www.nytimes.com/games/
 The story started with a fun.  Then, with `Letter Frequency` idea of ​​how often each word has repetitive letters and  `Word Frequency` idea of ​​how much the word itself repeats in English and with `Position Frequency` idea of ​​what rank the letters have in each position, we were able to design a feedback analysis and word selection section. Finally, build the WordleRobot.
 
 ## Recommended Python Version:
-The recommended version for Python 3
+The recommended version is Python 3
 ## Screenshots
 ![The New York Times Company](https://s6.uupload.ir/files/screen_shot_1400-12-27_at_11.14.36_5866.png)
 ![Wordle Games](https://s6.uupload.ir/files/screen_shot_1400-12-26_at_17.43.53_xhe4.png)
